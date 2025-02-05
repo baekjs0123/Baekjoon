@@ -35,3 +35,4 @@ num_sum = 0
 for c in num:
     num_sum += int(c)
 print(num_sum)
+
