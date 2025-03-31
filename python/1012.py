@@ -4,7 +4,7 @@ def is_valid(nr, nc):
     return 0 <= nr < N and 0 <= nc < M
 
 T = int(input())
-for tc i
+for tc in range(1, T + 1):
     # M: 가로 길이, N: 세로 길이, K: 배추 갯수
     M, N, K = map(int, input().split())
     # 밭 지도
@@ -25,7 +25,4 @@ for tc i
                 if field[r][c] == 1:
                     cnt += 1
                     if is_valid(nr, nc) and field[nr][nc] == 1:
-                        
-
-                    
-
+                        pass
